@@ -1,6 +1,6 @@
 package mx.com.animales;
 
-public class Gato extends Animal{
+public class Gato extends Animal implements Movible{
     public Gato (String nombre, Integer edad ){
         super (nombre, edad);
     }
@@ -8,5 +8,10 @@ public class Gato extends Animal{
     @Overrride
     public void hacerSonido(){
         System.out.println("Miau miau");
+    }
+
+    @Override
+    public void moverser() {
+        System.out.println("El gato cae de píe");
     }
 }
