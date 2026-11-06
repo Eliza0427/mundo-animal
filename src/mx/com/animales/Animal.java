@@ -1,8 +1,8 @@
 package mx.com.animales;
 
 public abstract class Animal {
-    private String nombre;
-    private Integer edad;
+    public String nombre;
+    public Integer edad;
 
     public Animal (String nombre, Integer edad ){
         this.nombre = nombre;
@@ -16,5 +16,5 @@ public abstract class Animal {
      public abstract void hacerSonido();
 
 
-
+    public abstract void moverser();
 }

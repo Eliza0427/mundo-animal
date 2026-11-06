@@ -11,7 +11,7 @@ public class Vaca extends Animal implements Movible {
     }
 
     @Override
-    public void moverser() {
+    public void moverse() {
         System.out.println("La vaca se espanta las moscas con su cola");
     }
 
